@@ -1,0 +1,22 @@
+{
+    "name": "9point6/copernica-soap",
+    "description": "Copernica SOAP API Client",
+    "authors": [
+        {
+            "name": "Copernica",
+            "homepage": "https://www.copernica.com/en/support/soap-api-documentation",
+            "role": "Original Developer"
+        },
+        {
+            "name": "John Sanderson",
+            "email": "j.sanderson@livelinknewmedia.com",
+            "role": "Added to Composer"
+        }
+    ],
+    "require": {
+        "php": ">=5.0.1"
+    },
+    "autoload": {
+        "classmap": ["soapclient.php"]
+    }
+}
